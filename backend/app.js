@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://task-manager-fawn-mu.vercel.app/",
+    origin: "https://task-manager-fawn-mu.vercel.app",
     credentials: true,
   })
 );
