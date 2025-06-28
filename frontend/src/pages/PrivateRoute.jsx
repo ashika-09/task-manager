@@ -10,7 +10,7 @@ const PrivateRoute = ({ children }) => {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        await axios.get("http://localhost:5000/isLoggedIn");
+        await axios.get("https://task-manager-ehmj.onrender.com/isLoggedIn");
         setIsAuth(true);
       } catch (err) {
         setIsAuth(false);

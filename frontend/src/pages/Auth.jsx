@@ -25,7 +25,7 @@ const Auth = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/register", {
+      const res = await axios.post("https://task-manager-ehmj.onrender.com/register", {
         firstName,
         lastName,
         emailID,
@@ -56,7 +56,7 @@ const Auth = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/login", {
+      const res = await axios.post("https://task-manager-ehmj.onrender.com/login", {
         emailID,
         password,
       });
